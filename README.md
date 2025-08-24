@@ -39,7 +39,7 @@ Moreno has assigned me the first question to answer: How do annual members and c
 **Microsoft Excel: Initial Data Cleaning**
 To begin, I downloaded all 12 of the zip files and unzipped them. I saved the .XLS files in a folder on my desktop. I then added columns for ride_length to calculate the length of each ride by subtracting the column started_at from the column ended_at, and formatted the column as Time > HH:MM:SS (37:30:55). Next I created a column to determine the day of the week that each ride started using the WEEKDAY command, labeled day_of_week. This column has been formatted as a number with no decimals, noting that 1 = Sunday and 7 = Saturday. After adding this information, I saved each file as a .CSV on my desktop for further analysis.
 
-**Data Combining** (https://github.com/mjluttrellhill/Google_Data_Analytics_Capstone_Cyclistic_Case_Study/blob/main/Data%20Combining.sql)
+**Data Combining** [Data Combining](https://github.com/mjluttrellhill/Google_Data_Analytics_Capstone_Cyclistic_Case_Study/blob/main/Data%20Combining.sql)
 The 12 tables from January 2021 to December 2021 were stacked and combined into a single table. The table consists of 5,667,717 rows.
 
 
