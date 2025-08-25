@@ -67,6 +67,7 @@ The end_lat and end_lng columns have 4,771 rows of missing data and need to be r
 - Total of 1,120,129 rows are removed.
 
 ## Step 4: Analyze
+[Data Analysis](https://github.com/mjluttrellhill/Google_Data_Analytics_Capstone_Cyclistic_Case_Study/blob/main/Data%20Analysis.sql)
 The analysis question is:
 >How do annual members and casual riders use Cyclistic bikes differently?
 
