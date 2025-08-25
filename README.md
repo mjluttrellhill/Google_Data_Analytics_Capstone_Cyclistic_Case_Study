@@ -45,7 +45,7 @@ To begin, I downloaded all 12 of the zip files and unzipped them. I saved the .X
 The 12 tables from January 2021 to December 2021 were stacked and combined into a single table. The table consists of 5,595,063 rows.
 
 **Data Exploration**<br>
-[Data Exploration]
+[Data Exploration](https://github.com/mjluttrellhill/Google_Data_Analytics_Capstone_Cyclistic_Case_Study/blob/main/Data%20Exploration.sql)
 Before cleaning the data, I explored the data to determine if there were any inconsistencies.
 
 The first exploration I made was for columns with null values. While both start_station_id and end_station_id have many null values, ride_id which is the table's primary key has zero. Therefore, I deduced that perhaps these were bikes that had been abandoned and did not start at a specific checkpoint.
