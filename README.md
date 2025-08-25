@@ -59,7 +59,7 @@ The end_station_name and end_station_id columns have 739,190 rows of missing dat
 The end_lat and end_lng columns have 4,771 rows of missing data and need to be removed as they are not needed for the current analysis.
 
 **Data Cleaning**<br>
-[Data Cleaning]
+[Data Cleaning](https://github.com/mjluttrellhill/Google_Data_Analytics_Capstone_Cyclistic_Case_Study/blob/main/Data%20Cleaning.sql)
 
 - All the rows with missing values are deleted
 - 3 columns are added for ride_length for duration of the trip, day_of_week and month are added
