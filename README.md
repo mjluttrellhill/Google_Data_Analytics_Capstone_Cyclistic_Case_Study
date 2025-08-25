@@ -39,9 +39,47 @@ Moreno has assigned me the first question to answer: How do annual members and c
 **Microsoft Excel: Initial Data Cleaning**
 To begin, I downloaded all 12 of the zip files and unzipped them. I saved the .XLS files in a folder on my desktop. I then added columns for ride_length to calculate the length of each ride by subtracting the column started_at from the column ended_at, and formatted the column as Time > HH:MM:SS (37:30:55). Next I created a column to determine the day of the week that each ride started using the WEEKDAY command, labeled day_of_week. This column has been formatted as a number with no decimals, noting that 1 = Sunday and 7 = Saturday. After adding this information, I saved each file as a .CSV on my desktop for further analysis.
 
-**Data Combining** 
+**Data Combining** <br>
 [Data Combining](https://github.com/mjluttrellhill/Google_Data_Analytics_Capstone_Cyclistic_Case_Study/blob/main/Data%20Combining.sql)
-The 12 tables from January 2021 to December 2021 were stacked and combined into a single table. The table consists of 5,667,717 rows.
+
+The 12 tables from January 2021 to December 2021 were stacked and combined into a single table. The table consists of 5,595,063 rows.
+
+**Data Exploration**<br>
+[Data Exploration]
+Before cleaning the data, I explored the data to determine if there were any inconsistencies.
+
+The first exploration I made was for columns with null values. While both start_station_id and end_station_id have many null values, ride_id which is the table's primary key has zero. Therefore, I deduced that perhaps these were bikes that had been abandoned and did not start at a specific checkpoint.
+
+Since ride_id has no null values, I then checked for duplicates. As the query shows, there are no duplicate rows.
+
+The start_station_name and start_station_id columns have 690,809 rows of missing data and need to be removed as they are not needed for the current analysis.
+
+The end_station_name and end_station_id columns have 739,190 rows of missing data and need to be removed as they are not needed for the current analysis.
+
+The end_lat and end_lng columns have 4,771 rows of missing data and need to be removed as they are not needed for the current analysis.
+
+**Data Cleaning**<br>
+[Data Cleaning]
+
+- All the rows with missing values are deleted
+- 3 columns are added for ride_length for duration of the trip, day_of_week and month are added
+- Trips with duration less that a minute or longer than a day are excluded
+- Total of 1,120,129 rows are removed.
+
+## Step 4: Analyze
+The analysis question is:
+>How do annual members and casual riders use Cyclistic bikes differently?
+
+The cleaned data is imported into Taleau for analysis.
+
+## Bike Types Used by Members and Casual Riders in 2021
+
+
+
+
+
+
+
 
 
 
