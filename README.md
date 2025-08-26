@@ -71,9 +71,15 @@ The end_lat and end_lng columns have 4,771 rows of missing data and need to be r
 The analysis question is:
 >How do annual members and casual riders use Cyclistic bikes differently?
 
-The cleaned data is imported into Taleau for analysis.
+Now that the data is cleaned, I created tables to analyze and import into Tableau to visualize the users and how they each use the Cyclistic bicycles.
 
-## Bike Types Used by Members and Casual Riders in 2021
+First, I looked at the percentage of member vs casual riders for the year 2021. The following pie chart shows that Cyclistic members recorded a usage percentage of 55%, while casual members recorded a usage percentage of 45%.
+
+![Annual Usage](
+
+
+
+
 
 
 
