@@ -77,6 +77,8 @@ First, I looked at the percentage of member vs casual riders for the year 2021. 
 
 ![Annual Usage](
 
+Next, I analyzed the types of bikes each type of rider was using. 
+
 ## Step 5: Share
 
 The similarities and differences between Cyclistic members and casual riders are listed below.
