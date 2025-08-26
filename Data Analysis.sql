@@ -66,5 +66,5 @@ SELECT end_station_name, member_casual,
   AVG(end_lat) AS end_lat, AVG(end_lng) AS end_lng,
   COUNT(ride_id) AS total_trips
 FROM `top-aloe-468816-u0.cyclistic.cyclistic_2021_clean_data`
-
 GROUP BY end_station_name, member_casual;
+
