@@ -29,6 +29,13 @@ FROM `top-aloe-468816-u0.cyclistic.cyclistic_2021_clean_data`
 GROUP BY day_of_week, member_casual
 ORDER BY member_casual;
 
+##number of trips per hour##
+
+SELECT EXTRACT(HOUR FROM started_at) AS hour_of_day, member_casual, COUNT(ride_id) AS total_trips
+FROM `top-aloe-468816-u0.cyclistic.cyclistic_2021_clean_data`
+GROUP BY hour_of_day, member_casual
+ORDER BY member_casual
+
 ##average ride_length per day of the week##
 
 SELECT day_of_week, member_casual, AVG(ride_length) AS avg_ride_duration
@@ -59,4 +66,5 @@ SELECT end_station_name, member_casual,
   AVG(end_lat) AS end_lat, AVG(end_lng) AS end_lng,
   COUNT(ride_id) AS total_trips
 FROM `top-aloe-468816-u0.cyclistic.cyclistic_2021_clean_data`
+
 GROUP BY end_station_name, member_casual;
