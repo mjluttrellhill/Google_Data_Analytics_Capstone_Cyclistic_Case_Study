@@ -77,7 +77,31 @@ First, I looked at the percentage of member vs casual riders for the year 2021. 
 
 ![Annual Usage](
 
+## Step 5: Share
 
+The similarities and differences between Cyclistic members and casual riders are listed below.
+
+**Similarities**<br>
+- Both Cyclistic members and casual riders prefer riding bicycles in the spring and summer seasons (May to September). 
+- Both Cyclistic members and casual riders prefer classic bikes over electric bikes.
+- Both Cyclistic members and casual riders have a higher average ride duration on the weekend as compared to weekdays.
+
+**Difference**
+- Cyclistic members go on more rides than causal riders.
+- Cyclistic members have shorter average ride lengths than casual riders.
+- Cyclistic members show consistent rides throughout the week.
+- Cyclistic casual riders tend to use the bikes more on the weekend than the weekdays.
+
+## Step 6: ACT
+After identifying the similarities and differences in member and casual riders, we can develop the following marketing strategies to convert casual riders to Cyclistic members.
+
+- Membership Personalization:
+  Provide a range of membership options: yearly, monthly, and daily. Users will be able to choose their membership based on their own use of the bicycles. By introducing short-term memberships, we can cater to the needs of riders who are not interested in a full annual membership.
+  Organize member-exclusive events such as group rides, urban exploration challenges, or themed events. 
+- Group Membership Discounts:
+  Offering discounted plans for students, families, and executives can encourage collective memberships. It will also encourage bonds between the groups.
+- Seasonal Campaigns
+  Launch seasonal campaigns, such as, limited-time discounts, special weekday offers, or discounted extended ride prices during the high usage seasons of Spring and Summer.
 
 
 
