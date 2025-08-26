@@ -1,3 +1,13 @@
+##annual rides by users##
+SELECT member_casual,
+COUNT (*) AS total_rides,
+ROUND(
+  COUNT (*) * 100.0/SUM(COUNT(*)) OVER(),
+  2
+) AS percent_rides
+FROM `top-aloe-468816-u0.cyclistic.cyclistic_2021_clean_data`
+GROUP BY member_casual;
+
 ##bikes types used by riders##
 
 SELECT member_casual, rideable_type, COUNT(*) AS total_trips
