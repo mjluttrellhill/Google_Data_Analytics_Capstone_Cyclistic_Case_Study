@@ -34,7 +34,7 @@ Moreno has assigned me the first question to answer: How do annual members and c
 ## Step 3: Process
 **Tools:** <br>
 - Data cleaning & processing - Microsoft Excel and SQL on Google Big Query 
-- Data visualization - [Tableau](https://public.tableau.com/app/profile/hui.min.ho/viz/CyclisticBikeShareCaseStudy_16931448059910/Sheet1#2)
+- Data visualization - Tableau Public
 
 **Microsoft Excel: Initial Data Cleaning**
 To begin, I downloaded all 12 of the zip files and unzipped them. I saved the .XLS files in a folder on my desktop. I then added columns for ride_length to calculate the length of each ride by subtracting the column started_at from the column ended_at, and formatted the column as Time > HH:MM:SS (37:30:55). Next I created a column to determine the day of the week that each ride started using the WEEKDAY command, labeled day_of_week. This column has been formatted as a number with no decimals, noting that 1 = Sunday and 7 = Saturday. After adding this information, I saved each file as a .CSV on my desktop for further analysis.
