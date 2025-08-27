@@ -73,11 +73,44 @@ The analysis question is:
 
 Now that the data is cleaned, I created tables to analyze and import into Tableau to visualize the users and how they each use the Cyclistic bicycles.
 
-First, I looked at the percentage of member vs casual riders for the year 2021. The following pie chart shows that Cyclistic members recorded a usage percentage of 55%, while casual members recorded a usage percentage of 45%.
+### Total Rides in 2021
+Cyclistic members recorded a 55% usage rate in 2021, or a total of 2,462,525 rides. Casual riders recoreded a 45% usage rate in 2021, or a total of 2,012,409 rides.
+<img width="336" height="203" alt="Sheet 1" src="https://github.com/user-attachments/assets/e3052447-968a-465e-9c64-6b206ce75a6d" />
 
-![Annual Usage](
 
-Next, I analyzed the types of bikes each type of rider was using. 
+### Types of Bikes
+There are three types of bikes available for riders to use: classic, electric, and docked bicycles. Both Cyclistic members and casual riders show a preference of a classic bicycle over the electric bicycle. 
+<img width="588" height="500" alt="Bike Types by Member Type" src="https://github.com/user-attachments/assets/4061488e-e361-41f9-b423-e396f25c30f8" />
+
+### Trips Taken per Month
+Both Cyclistic members and casual riders have the lowest activity, 33,635(members) and 8,465(casual) rides, in February 2021.
+Cyclistic members have the highest activity, 322,994 rides, in August 2021.
+Causal riders have the highest activity, 362,638 rides, in July 2021.
+<img width="588" height="500" alt="Total Trips per Month" src="https://github.com/user-attachments/assets/520c882f-72a4-4857-82d7-a4498dcfc103" />
+
+### Trips Taken per Day of the Week
+Cyclistic members have the highest activity, 385,839 rides, on Wednesdays, with the lowest activity, 301,571 rides, on Sundays.
+Casual riders have the highest activity, 460,235 rides, on Saturdays with the lowest activity, 211,217 rides, on Tuesdays.
+<img width="588" height="500" alt="Total Trips per Day of Week" src="https://github.com/user-attachments/assets/81734b33-acec-452f-bb37-b889400f7f62" />
+
+### Trips Taken per Hour
+Both Cyclistic members and casual riders had the highest activity starting at 3PM through 6PM, with the highest activity at 5PM. 
+<img width="588" height="500" alt="Total Trips per Hour" src="https://github.com/user-attachments/assets/ebac03f1-4349-4eaa-bdd4-ef26c7f1ca3d" />
+
+### Average Ride Length per Month
+The highest monthly average ride length for Cyclistic members is February of 2021, with an average of 15.01 minutes.
+The highest monthly average ride length for casual riders is May 2021, with an average of 33.18 minutes.
+<img width="588" height="500" alt="Avg Ride per Month" src="https://github.com/user-attachments/assets/9baacf49-60b6-4821-8e38-9453c6557309" />
+
+## Average Ride Length per Day of the Week.
+The highest daily average ride length for Cyclistic members is Sunday, with an average of 15.17 minutes.
+The highest daily average ride length for casual riders is Sunday, with an average of 32.44 minutes.
+<img width="588" height="500" alt="Avg Ride per DOW" src="https://github.com/user-attachments/assets/068fa4db-600c-45b0-aa8f-3e2578d4b95a" />
+
+## Average Ride Length per Hour
+Cyclistic members have the longest average ride length at 2PM, with a total of 13.80 minutes.
+Casual riders have the longest average ride lenghth at 1PM, with a total of 32.35 minutes.<br>
+<img width="588" height="500" alt="Avg Ride per Hour" src="https://github.com/user-attachments/assets/c21a04fd-40ff-4db4-8c7f-1e7817c2a0df" />
 
 ## Step 5: Share
 
